@@ -4,7 +4,6 @@ categories = []
 comment = false
 date = 2020-01-19T23:00:00Z
 description = "descripion"
-draft = true
 featured_image = ""
 featured_image_preview = ""
 lastmod = 2020-01-19T23:00:00Z
@@ -17,4 +16,7 @@ title = "titel"
 toc = false
 
 +++
-text
+## text
+
+### test 1
+text test 1
