@@ -25,8 +25,14 @@ share:
 comment: true
 ---
 ## test musicplayer here
+
 aPlayer plugin
+1
+{{< music url="https://rainymood.com/audio1110/0.m4a" name=rainymood artist=rainymood cover="https://rainymood.com/i/badge.jpg" >}}
+2
 {{< music url="https://cdn.sfdvw.de/audio/Sendung_fuer_die_vernetzte_Welt_%2890%29_2020_03_21_Technik_der_Jugend.mp3" name=sfdvw artist=90 cover="https://sfdvw.de/img/blog/sfdvw90.jpg" >}}
+3
+{{< music auto="https://music.163.com/#/playlist?id=60198" >}}
 
 instagram
 {{< instagram BWNjjyYFxVx hidecaption >}}
@@ -36,3 +42,12 @@ twitter
 
 vimeo
 {{< vimeo 146022717 >}}
+
+tip
+{{< admonition type=tip title="This is a tip" details=true >}}
+A **tip** banner
+{{< /admonition >}}
+Or
+{{< admonition tip "This is a tip" true >}}
+A **tip** banner
+{{< /admonition >}}
