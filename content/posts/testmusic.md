@@ -24,5 +24,15 @@ share:
   enable: true
 comment: true
 ---
+## test musicplayer here
+aPlayer plugin
+{{< music url="https://cdn.sfdvw.de/audio/Sendung_fuer_die_vernetzte_Welt_%2890%29_2020_03_21_Technik_der_Jugend.mp3" name=sfdvw artist=90 cover="https://sfdvw.de/img/blog/sfdvw90.jpg" >}}
 
-{{< music url="https://cdn.sfdvw.de/audio/Sendung_fuer_die_vernetzte_Welt_(90)_2020_03_21_Technik_der_Jugend.mp3" name=sfdvw artist=90 cover="https://sfdvw.de/img/blog/sfdvw90.jpg" >}}
+instagram
+{{< instagram BWNjjyYFxVx hidecaption >}}
+
+twitter
+{{< tweet 1241376913706418179 >}}
+
+vimeo
+{{< vimeo 146022717 >}}
