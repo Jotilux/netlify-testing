@@ -103,9 +103,9 @@ staticDir = ["static", "../assets/others"]               # static directories
     echarts_macarons_js = ''
     typeit_js = ''
     jquery_countdown_js = ''
-    aplayer_css = ''
-    aplayer_js = ''
-    meting_js = ''
+    aplayer_css = '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css" crossorigin="anonymous">'
+    aplayer_js = '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js" crossorigin="anonymous">'
+    meting_js = '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js" crossorigin="anonymous">'
 
   [params.gravatar]                                      # Gravatar Info for preferred avatar in home page
     email = ""
