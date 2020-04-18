@@ -57,14 +57,8 @@ staticDir = ["static", "../assets/others"]               # static directories
     url = "about"
     weight = 4
 
-  [[menu.main]]
-    identifier = "zh"
-    name = '<i class="fas fa-language fa-fw"></i>'
-    url = "https://hugo-loveit-zh.netlify.com"
-    weight = 5
-
 [params]
-  version = "0.5"                                        # LoveIt theme version
+  version = "5.x"                                        # LoveIt theme version
   description = "jotilux testingpage"                      # site description
   keywords = ["Theme", "Hugo"]                   # site keywords
 
