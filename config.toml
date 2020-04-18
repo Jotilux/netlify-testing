@@ -1,7 +1,7 @@
-baseURL = ""
+baseURL = "jotilux.netlify.app"
 languageCode = "en"                                      # website language
 defaultContentLanguage = "en"                            # [en, zh, ...] determines which i18n file to use
-title = "LoveIt Theme"                                   # website title
+title = "Jotilux Testingpage"                                   # website title
 theme = "LoveIt"                                         # theme
 enableGitInfo = false                                    # whether to use git commit log to generate lastmod record
 hasCJKLanguage = false                                   # whether to include chinese/japanese/korean
@@ -9,7 +9,7 @@ paginate = 12                                            # default amount of pos
 enableEmoji = true                                       # whether to use emoji code
 enableRobotsTXT = true                                   # whether to use robots.txt
 googleAnalytics = ""                                     # [UA-XXXXXXXX-X] google analytics code
-disqusShortname = "dillonzq"                             # Disqus shortname to use Disqus in posts
+disqusShortname = "jotilux"                             # Disqus shortname to use Disqus in posts
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
                                                          # copyright description used only for seo schema
 
@@ -22,7 +22,7 @@ pygmentsCodefencesGuessSyntax = true
 staticDir = ["static", "../assets/others"]               # static directories
 
 [author]                                              #### Author Info
-  name = "XXXX"
+  name = "jotilux"
 
 [sitemap]                                             #### Sitemap Info
   changefreq = "weekly"
@@ -64,20 +64,20 @@ staticDir = ["static", "../assets/others"]               # static directories
     weight = 5
 
 [params]
-  version = "5.x"                                        # LoveIt theme version
-  description = "LoveIt Theme Demo"                      # site description
-  keywords = ["XXXX", "Theme", "Hugo"]                   # site keywords
+  version = "0.5"                                        # LoveIt theme version
+  description = "jotilux testingpage"                      # site description
+  keywords = ["Theme", "Hugo"]                   # site keywords
 
                                                       #### Home Page Info
   home_mode = "post"                                     # [post, other] home mode
   home_paginate = 6                                      # special amount of posts in each home post page
   avatar = "images/avatar.png"                           # URL of avatar shown in home page
-  subtitle = "A Clean, Elegant but Advanced Hugo Theme"  # subtitle shown in home page
+  subtitle = "Hi there, this page is an test!"  # subtitle shown in home page
 
   socialShare = true                                     # whether to show social share links in post page
 
                                                       #### Footer CopyRight Info
-  since = 2018                                           # Site creation time
+  since = 2020                                           # Site creation time
   icp = ''                                               # ICP info only in China (HTML format is allowed)
   license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
                                                          # license info (HTML format is allowed)
@@ -117,13 +117,13 @@ staticDir = ["static", "../assets/others"]               # static directories
     email = ""
 
   [params.social]                                        # Social Info in home page
-    GitHub = "xxxx"
-    Linkedin = "xxxx"
-    Twitter = "xxxx"
+    GitHub = "jotilux"
+    #Linkedin = "xxxx"
+    #Twitter = "xxxx"
     #Instagram = "xxxx"
     #Email = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
+    #Facebook = "xxxx"
+    #Telegram = "xxxx"
     #Medium = "xxxx"
     #Gitlab = "xxxx"
     #Youtubelegacy = "xxxx"
@@ -172,14 +172,14 @@ staticDir = ["static", "../assets/others"]               # static directories
     #Vine = "xxxx"
     #Googlescholar = "xxxx"
     #Researchgate = "xxxx"
-    #Mastodon = "xxxx"
+    Mastodon = "xxxx"
     #Thingiverse = "xxxx"
 
   [params.share]                                         # Social Share Links in post page
     enable = true
     Twitter = true
-    Facebook = true
-    Reddit = true
+    #Facebook = false
+    #Reddit = false
     #Linkedin = true
     #Pinterest = true
     #HackerNews = true
@@ -189,7 +189,7 @@ staticDir = ["static", "../assets/others"]               # static directories
     #Weibo = true
 
   [params.publisher]                                     # Publisher Info just for SEO
-    name = "XXXX"
+    name = ""
     [params.publisher.logo]
       url = "logo.png"
       width = 127
